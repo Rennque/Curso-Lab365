@@ -1,0 +1,212 @@
+:root {
+  --black: #000000;
+  --text-1: #fff;
+  --text-2: #b2b2b2;
+  --btn-background-color-1: #FBB803;
+  --btn-background-hover-1: #dda201;
+  --btn-color-1: #000000;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--black);
+  padding: 20px 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  color: var(--text-1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+.container {
+  background-color: var(--black);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+p {
+  margin-left: 50px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  top: 17px;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-1);
+  position: relative;
+  margin-left: 30px;
+}
+
+/* Animando o sublinhado quando o mouse passa sobre a tag */
+a:hover::after {
+  width: 100%;
+}
+
+.btn-active:hover {
+  background-color: var(--btn-background-hover-1);
+}
+
+.top {
+  color: #fff;
+  margin-top: 50px;
+  font-size: 2em;
+  margin-left: 180px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+  background-color: #4b4949;
+}
+
+
+
+.col-sm-12 {
+  max-width: 400px;
+}
+
+.col-md-6 {
+  padding-top: 0px;
+}
+
+.text-yellow {
+  color: var(--btn-background-color-1);
+}
+
+.contato-formulario {
+  width: 440px;
+  z-index: 5;
+  position: relative;
+  justify-content: center;
+  margin-right: 433px;
+  width: 70em;
+}
+
+.contato-redes img {
+  width: 65px;
+  height: 65px;
+}
+
+
+
+/* Estilos do formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+
+form button {
+  background-color: var(--btn-background-color-1);
+  color: #030303;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #fdf9f9;
+}
+
+.lojas-locais {
+
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.floripa img {
+ 
+  width: 2em;
+  height: 2em;
+  display: flex;
+
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
