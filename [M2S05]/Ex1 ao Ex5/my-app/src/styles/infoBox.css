@@ -1,0 +1,9 @@
+.info-box {
+    background-color: #d9edf7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
