@@ -1,0 +1,42 @@
+.footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 293px;
+}
+
+.footer1 {
+  margin-right: 10px;
+}
+
+.footer1 span {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.footer2 {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #70757a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
