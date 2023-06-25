@@ -37,7 +37,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="footer-item">
-              <a href="#" className="footer-link">
+              <a href="#" className="footer-link">formulario
                 <FontAwesomeIcon icon={['fab', 'instagram']} className="footer-icon" />
               </a>
             </li>
