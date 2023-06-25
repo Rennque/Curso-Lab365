@@ -1,0 +1,15 @@
+.user-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-card h3 {
+    margin-top: 0;
+  }
+  
+  .user-card p {
+    margin-bottom: 5px;
+  }
